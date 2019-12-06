@@ -56,6 +56,29 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+header{
+    margin: 3%;
+}
+
+nav .links{
+	
+	display: flex;
+	justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#top-img{
+    display: flex;
+     justify-content: space-evenly;
+     margin: 2%;
+}
+
+#top-img img{
+    width:80%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -112,6 +135,45 @@ p {
     justify-content: center;
 }
 
+#box1{
+    background-color:teal ;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral ;
+}
+#box5{
+    background-color:  crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkorchid;
+}
+
+#box8{
+    background-color: hotpink ;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +205,64 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page Styles*/
+
+#section1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3%;
+   
+}
+
+hr {
+    border-bottom:1px dotted black;
+}
+
+#section2 {
+    display:flex;
+    flex-direction: column;
+    /* border-bottom: 1px dotted black; */
+    margin: 2%;
+}
+
+#row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.strategy, .how-we-work, .places-we-work, .collaboration {
+    margin: 3%;
+    border-bottom: 1px dotted black;
+}
+
+#section2 img{
+    margin: 3%;
+}
+
+#section2 p {
+    margin: 2%;
+}
+
+#section2 button{
+    background-color: cornsilk;
+    padding:3%;
+    border-radius: 8px;
+    width: 35%;
+    margin: 2% 2% 5% 2%;
+}
+
+#section3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 3%;
+   
 }
